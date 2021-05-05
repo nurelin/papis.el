@@ -80,7 +80,7 @@
 
 ;; [[file:README.org::*Introduction][Introduction:1]]
 (defmacro @papis-query ()
-  `(interactive ,papis--query-prompt))
+  `(interactive papis--query-prompt))
 ;; Introduction:1 ends here
 
 ;; Issuing commands to the shell
